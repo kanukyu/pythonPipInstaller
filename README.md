@@ -28,16 +28,16 @@ This project provides a PowerShell script to check for the installation of Pytho
 1. Open PowerShell as an administrator.
 2. Navigate to the directory where your PowerShell script (`install-python.ps1`) is located.
 3. Run the following command to execute the PowerShell script:
-   ```cmd
-  .\install-python.ps1
+   ```
+   .\install-python.ps1
   
 ## Git Bash
 
 1. Open Git Bash.
-2. Navigate to the directory where your PowerShell script (install-python.ps1) is located.
+2. Navigate to the directory where your PowerShell script (`install-python.ps1`) is located.
 3. Run the following command to execute the PowerShell script:
-   ```bash
-  powershell -ExecutionPolicy Bypass -File install-python.ps1
+   ```
+   powershell -ExecutionPolicy Bypass -File install-python.ps1
   
 ## Notes
 - The script will download Python 3.12.6 and install it, including pip.
