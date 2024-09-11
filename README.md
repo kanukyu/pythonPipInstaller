@@ -28,7 +28,7 @@ This project provides a PowerShell script to check for the installation of Pytho
 1. Open PowerShell as an administrator.
 2. Navigate to the directory where your PowerShell script (`install-python.ps1`) is located.
 3. Run the following command to execute the PowerShell script:
-   ```powershell
+   ```cmd
   .\install-python.ps1
   
 ## Git Bash
