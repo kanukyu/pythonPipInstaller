@@ -20,25 +20,43 @@ This project provides a PowerShell script to check for the installation of Pytho
 1. Open Command Prompt as an administrator.
 2. Navigate to the directory where your PowerShell script (`pythonPipInstaller.ps1`) is located.
 3. Run the following command to execute the PowerShell script:
-   ```cmd
-   powershell -ExecutionPolicy Bypass -File pythonPipInstaller.ps1
-   
+   - Open CMD (`Win + R`, type `cmd`, press `Enter`).
+   - Navigate to the project folder:
+     ```bash
+     cd path\to\your\project
+     ```
+   - Run the Python script:
+     ```cmd
+     powershell -ExecutionPolicy Bypass -File pythonPipInstaller.ps1
+     ```
 ## PowerShell
 
 1. Open PowerShell as an administrator.
 2. Navigate to the directory where your PowerShell script (`pythonPipInstaller.ps1`) is located.
 3. Run the following command to execute the PowerShell script:
-   ```
-   .\pythonPipInstaller.ps1
-  
+   - Open PowerShell (`Win + X`, select **Windows PowerShell**).
+   - Navigate to the project folder:
+     ```bash
+     cd path\to\your\project
+     ```
+   - Run the script:
+     ```bash
+     .\pythonPipInstaller.ps1
+     ```
 ## Git Bash
 
 1. Open Git Bash.
 2. Navigate to the directory where your PowerShell script (`pythonPipInstaller.ps1`) is located.
 3. Run the following command to execute the PowerShell script:
-   ```
-   powershell -ExecutionPolicy Bypass -File pythonPipInstaller.ps1
-  
+   - Open Git Bash.
+   - Navigate to the project folder:
+     ```bash
+     cd /path/to/your/project
+     ```
+   - Run the Python script:
+     ```bash
+     powershell -ExecutionPolicy Bypass -File pythonPipInstaller.ps1
+     ```
 ## Notes
 - The script will download Python 3.12.6 and install it, including pip.
 - Ensure you have the required permissions to install software on your system.
